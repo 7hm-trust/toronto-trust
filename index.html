@@ -3,72 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toronto Trust</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file here -->
+  <title>Toronto Trust - Blogs</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navigation Bar -->
   <header>
     <div class="navbar">
-      <img src="logo.png" alt="Toronto Trust Logo" class="logo" style="height: 50px;">
+      <img src="logo.png" alt="Toronto Trust Logo" class="logo" style="height: 70px;">
       <nav>
         <ul>
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#about" class="nav-link">About Us</a></li>
-          <li><a href="#blogs" class="nav-link">Blogs</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="index.html">Blogs</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="section">
-    <h1>Welcome to Toronto Trust</h1>
-    <p>Your trusted partner in financial insights and investment research.</p>
-  </section>
-
-  <!-- About Us Section -->
-  <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>Toronto Trust was founded by two students from the Rotman School of Management at the University of Toronto. With a shared passion for investing and a commitment to learning, we created this platform to share our insights and research with a broader audience. Our goal is to make investment strategies and financial insights accessible to everyone, from seasoned investors to those just starting their financial journey.</p>
-    <p>Through Toronto Trust, we publish in-depth analyses, market updates, and personal insights on various investment topics. We’re excited to build a community where people can learn, grow, and succeed together in the world of finance.</p>
-  </section>
-
-  <!-- Blogs Section Placeholder -->
+  <!-- Blogs Section -->
   <section id="blogs" class="section">
     <h2>Our Blogs</h2>
     <p>Stay tuned for our latest investment research and insights, coming soon.</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Get in touch with us to learn more about our investment insights and research.</p>
-    <p>Email: info@torontotrust.com</p>
   </section>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 Toronto Trust. All rights reserved.</p>
   </footer>
-
-  <!-- JavaScript for Smooth Scrolling -->
-  <script>
-    document.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1);
-        const targetSection = document.getElementById(targetId);
-
-        if (targetSection) {
-          window.scrollTo({
-            top: targetSection.offsetTop,
-            behavior: 'smooth'
-          });
-        }
-      });
-    });
-  </script>
 </body>
 </html>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="favicon.png" type="image/png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toronto Trust - Contact</title>
@@ -24,9 +23,27 @@
 
   <!-- Contact Section -->
   <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Get in touch with us to learn more about our investment insights and research.</p>
-    <p>Email: info@torontotrust.com</p>
+    <h2>Let’s Chat!</h2>
+    <p>If you want to join Toronto Trust, or if you have any questions, simply fill out the form below</a>.</p>
+
+    <form action="https://formspree.io/f/mpwzdwqq" method="POST">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required>
+      
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required>
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+      
+      <label for="message">Investment Research Doc Link, or Question</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
   </section>
 
   <!-- Footer -->

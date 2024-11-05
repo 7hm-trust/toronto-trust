@@ -70,6 +70,38 @@ body {
   background-color: #ffffff;
 }
 
+/* About Page Banner Styling with Gradient Overlay */
+.about-banner {
+  position: relative;
+  width: 100%;
+  height: 265px; /* Adjust height as needed */
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), /* Dark gradient overlay */
+    url('aboutbanner.jpg'); /* Replace with the path to your about banner image */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; /* Ensures the gradient blends with the image */
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-overlay h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
 /* Contact form section */
 #contact {
   background-color: #ffffff;

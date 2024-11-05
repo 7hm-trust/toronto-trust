@@ -61,51 +61,50 @@ nav a:hover {
   background-color: #d9eaf7;
 }
 
-/* Contact form styling */
+/* Contact form section */
 #contact {
-  background-color: #c2d6e3;
+  background-color: #e6f2ff; /* Softer color for the section */
   padding: 3rem 1rem;
 }
 
+/* Form styling */
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+form label {
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
 form input, form textarea {
   width: 100%;
   padding: 0.8rem;
-  margin: 0.5rem 0;
+  margin: 0.8rem 0;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-form input[type="submit"] {
+form button {
   background-color: #003366;
   color: #fff;
   border: none;
   cursor: pointer;
   padding: 0.8rem 2rem;
   font-size: 1rem;
+  border-radius: 4px;
 }
 
-form input[type="submit"]:hover {
+form button:hover {
   background-color: #00509e;
-}
-
-/* Footer styling */
-footer {
-  background-color: #003366;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  margin-top: 1rem;
 }

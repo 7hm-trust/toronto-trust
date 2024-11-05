@@ -137,8 +137,8 @@ form input, form textarea {
 }
 
 form button {
-  background-color: #ffffff;
-  color: #8a8a8a;
+  background-color: #b4b4b4;
+  color: #fff;
   border: none;
   cursor: pointer;
   padding: 0.8rem 2rem;

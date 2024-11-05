@@ -71,17 +71,19 @@ body {
 }
 
 /* About Page Banner Styling with Gradient Overlay */
+/* About Page Banner Styling with Gradient Overlay */
 .about-banner {
   position: relative;
   width: 100%;
   height: 265px; /* Adjust height as needed */
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), /* Dark gradient overlay */
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), /* Dark gradient overlay */
     url('aboutbanner123.jpeg'); /* Replace with the path to your about banner image */
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply; /* Ensures the gradient blends with the image */
 }
+
 
 .banner-overlay {
   position: absolute;

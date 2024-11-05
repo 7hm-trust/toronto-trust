@@ -29,7 +29,7 @@ body {
 }
 
 .navbar .logo {
-  height: 60px; /* Increase logo size */
+  height: 70px; /* Increase logo size */
   background: none; /* Remove background color behind the logo */
 }
 
@@ -101,7 +101,7 @@ form input, form textarea {
   margin: 0.8rem 0;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 form button {

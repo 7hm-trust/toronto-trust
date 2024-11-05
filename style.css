@@ -1,0 +1,84 @@
+# Saving the CSS code into a downloadable file
+css_content = """/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #004d99;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #003366;
+  border-radius: 5px;
+}
+
+/* Section styling */
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+#home {
+  background-color: #e6f2ff;
+}
+
+#about {
+  background-color: #b3d9ff;
+}
+
+#contact {
+  background-color: #80c1ff;
+}
+
+/* Footer styling */
+footer {
+  background-color: #004d99;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+"""
+
+# Save the CSS content to a file
+css_path = Path("/mnt/data/style.css")
+css_path.write_text(css_content)
+
+css_path

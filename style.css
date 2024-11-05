@@ -182,17 +182,43 @@ form button:hover {
 }
 
 /* Footer styling */
-<footer>
-  <div class="footer-top">
-    <div class="social-icons">
-      <a href="mailto:your-email@example.com"><img src="email-icon.png" alt="Email Icon"></a>
-      <a href="https://www.facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook Icon"></a>
-      <a href="https://www.linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn Icon"></a>
-      <a href="https://www.instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram Icon"></a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>your-email@example.com</p>
-  </div>
-</footer>
+footer {
+  width: 100%;
+  text-align: center;
+}
 
+/* Top part of the footer with social icons */
+.footer-top {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons a img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+  filter: grayscale(100%); /* Optional: make icons grayscale */
+  transition: filter 0.3s;
+}
+
+.social-icons a img:hover {
+  filter: grayscale(0%); /* Icons return to color on hover */
+}
+
+/* Bottom part of the footer with email address */
+.footer-bottom {
+  background-color: #333333; /* Dark gray background */
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

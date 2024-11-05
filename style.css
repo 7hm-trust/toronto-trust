@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #ffffff !important; /* Ensures header is white */
+  background-color: #ffffff; /* White background for TSIC-style look */
   border-bottom: 2px solid #ddd;
   position: fixed;
   width: 100%;
@@ -29,13 +29,14 @@ body {
 }
 
 .navbar .logo {
-  height: 50px; /* Adjust logo size */
+  height: 60px; /* Increase logo size */
+  background: none; /* Remove background color behind the logo */
 }
 
 .navbar nav ul {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 3rem; /* Increase spacing between links */
   margin: 0;
 }
 
@@ -43,7 +44,7 @@ body {
   color: #333;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 0.9rem; /* Smaller font size for links */
 }
 
 .navbar nav ul li a:hover {

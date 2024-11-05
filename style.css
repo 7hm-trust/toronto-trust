@@ -1,0 +1,42 @@
+/* Set font to Times New Roman */
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Simple styling for the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Add spacing to sections */
+.section {
+  padding: 4rem 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+

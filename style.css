@@ -182,11 +182,17 @@ form button:hover {
 }
 
 /* Footer styling */
-footer {
-  background-color: #3d3d3d;
-  color: #3d3d3d;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-}
+<footer>
+  <div class="footer-top">
+    <div class="social-icons">
+      <a href="mailto:your-email@example.com"><img src="email-icon.png" alt="Email Icon"></a>
+      <a href="https://www.facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook Icon"></a>
+      <a href="https://www.linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn Icon"></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram Icon"></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>your-email@example.com</p>
+  </div>
+</footer>
+

@@ -118,6 +118,35 @@ form button:hover {
   background-color: #00509e;
 }
 
+/* Contact Page Banner Styling */
+.contact-banner {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust height to your preference */
+  background-image: url('contactbanner.jpg'); /* Replace with your image file name or URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Light black tint */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-overlay h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
 /* Footer styling */
 footer {
   background-color: #003366;

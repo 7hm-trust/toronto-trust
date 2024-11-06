@@ -321,7 +321,7 @@ footer {
 /* Bottom part of the footer with email text */
 .footer-bottom {
   background-color: #333333; /* Darker gray */
-  color: #b5b5b5;
+  color: #fff;
   padding: 1.5rem;
   font-size: 0.9rem; /* Slightly larger font size */
   font-family: sans-serif; /* Set font to Arial */

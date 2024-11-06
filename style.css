@@ -298,8 +298,8 @@ footer {
 
 /* Top part of the footer with social icons */
 .footer-top {
-  background-color: #f0f0f0;
-  padding: 1.5rem;
+  background-color: #333333; /* Dark gray background */
+  padding: 2rem 0; /* Increased padding for height */
 }
 
 .social-icons {
@@ -321,12 +321,22 @@ footer {
 
 /* Bottom part of the footer */
 .footer-bottom {
-  background-color: #333333;
+  background-color: #444444; /* Slightly lighter dark gray */
   color: #ffffff;
-  padding: 1rem;
+  padding: 1.5rem 0; /* Increased padding for height */
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.footer-bottom p {
+  margin: 0.5rem 0 0; /* Add spacing around the text */
+  font-weight: bold;
+}
+
+/* Additional styling for height and centering */
+footer {
+  padding: 3rem 0; /* Adds extra space in the footer */
+  background: linear-gradient(to bottom, #333333, #444444); /* Gradient background */
+}

@@ -70,7 +70,49 @@ body {
   background-color: #ffffff;
 }
 
-/* About Page Banner Styling with Gradient Overlay */
+/* General About Section Styling */
+#about {
+  text-align: left; /* Ensures the content above is left-aligned */
+  max-width: 800px;
+  margin: 0 auto; /* Centers the whole section but keeps text left-aligned */
+}
+
+/* Team Container Styling */
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjusts space between team members */
+  margin-top: 20px;
+}
+
+/* Individual Team Member Styling */
+.team-member {
+  flex: 1;
+  background-color: #f9f9f9; /* Optional: Adds a light background to each card */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.team-member h3 {
+  font-weight: normal; /* Ensures the name isn't bold */
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.team-member p strong {
+  font-weight: bold; /* Only bolds labels like 'Education' and 'Role' */
+}
+
+.team-member a {
+  margin-right: 10px; /* Adds spacing between icons */
+}
+
 /* About Page Banner Styling with Gradient Overlay */
 .about-banner {
   position: relative;

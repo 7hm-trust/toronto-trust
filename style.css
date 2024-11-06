@@ -248,15 +248,20 @@ footer {
   filter: grayscale(0%);
 }
 
-/* Bottom part of the footer with email address */
-.footer-bottom {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 1rem;
+/* Footer styling */
+footer {
+  width: 100%;
+  text-align: center;
 }
 
-.footer-bottom p {
-  margin: 0;
-  font-size: 0.9rem;
-  font-weight: bold;
+/* Top part of the footer with social icons */
+.footer-top {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 1.5rem;
+}
+
+.footer-bottom {
+  background-color: #333333; /* Change this color to adjust the footer background */
+  color: #ffffff; /* Text color */
+  padding: 1rem;
 }

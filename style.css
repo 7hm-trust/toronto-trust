@@ -4,6 +4,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Blog Preview Container */
+.blog-preview {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-preview:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Company Logo */
+.blog-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 1.5rem;
+  border-radius: 8px;
+}
+
+/* Blog Content */
+.blog-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.blog-snippet {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* Read More Link */
+.read-more {
+  font-size: 0.9rem;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
 
 /* Body styling */
 body {

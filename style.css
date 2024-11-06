@@ -110,16 +110,31 @@ body {
   margin-right: 10px;
 }
 
-/* About and Contact Banners */
-.about-banner, .contact-banner {
+/* About Page Banner Styling */
+.about-banner {
   position: relative;
   width: 100%;
   height: 265px;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('aboutbanner123.jpeg');
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url('aboutbanner123.jpeg'); /* Path to About Us banner image */
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
-  margin-top: 100px;
+}
+
+/* Contact Page Banner Styling */
+.contact-banner {
+  position: relative;
+  width: 100%;
+  height: 265px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url('contactbanner.jpg'); /* Path to Contact Us banner image */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
 }
 
 .banner-overlay {

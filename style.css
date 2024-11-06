@@ -350,3 +350,51 @@ footer {
   color: #ffffff; /* White text color */
   padding: 1rem;
 }
+
+/* Footer styling */
+footer {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+/* Top part of the footer with social icons */
+.footer-top {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 1.5rem;
+}
+
+/* Bottom part of the footer */
+.footer-bottom {
+  background-color: #333333; /* Dark gray */
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ensure footer takes up full width and stays fixed at the bottom if there's less content */
+body, html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1;
+}
+
+/* Additional mobile adjustments */
+@media (max-width: 768px) {
+  .footer-top, .footer-bottom {
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+}

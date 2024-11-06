@@ -313,15 +313,9 @@ footer {
   padding: 1.5rem;
 }
 
+/* Bottom part of the footer */
 .footer-bottom {
-  background-color: #333333; /* Change this color to adjust the footer background */
-  color: #ffffff; /* Text color */
+  background-color: #333333; /* Dark gray background */
+  color: #ffffff; /* White text color */
   padding: 1rem;
-}
-/* Footer styling */
-.footer-bottom {
-  background-color: #a9a9a9; /* Medium gray */
-  color: #333333;
-  padding: 1rem;
-  position: relative;
 }

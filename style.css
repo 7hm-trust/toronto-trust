@@ -289,17 +289,16 @@ form button:hover {
   background-color: #8a8a8a;
 }
 
-/* Footer Styling */
+/* Footer styling */
 footer {
   width: 100%;
   text-align: center;
-  background: linear-gradient(to bottom, #333333, #444444); /* Dark to slightly lighter gradient */
-  padding: 3rem 0; /* Additional padding for increased height */
 }
 
 /* Top part of the footer with social icons */
 .footer-top {
-  padding: 1.5rem;
+  background-color: #404040; /* Slightly darker gray */
+  padding: 2rem; /* Increase padding for more height */
 }
 
 .social-icons {
@@ -319,26 +318,13 @@ footer {
   filter: grayscale(0%);
 }
 
-/* Bottom part of the footer */
+/* Bottom part of the footer with email text */
 .footer-bottom {
+  background-color: #333333; /* Darker gray */
   color: #ffffff;
-  padding: 2rem 0; /* Increase padding for height */
+  padding: 1.5rem;
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-/* Additional settings for better visual effect */
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem; /* Space between items like email and social icons */
-}
-
-.footer-bottom p {
-  margin: 0.5rem 0;
-  font-weight: bold;
-}
-

@@ -7,11 +7,12 @@
 /* Blog Post Content Styling */
 .blog-post {
   max-width: 800px;
-  margin: 3rem auto;
+  margin: 4rem auto; /* Increased top margin for space below header */
   padding: 1.5rem;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .blog-post h1 {

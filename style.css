@@ -330,10 +330,3 @@ footer {
   align-items: center;
 }
 
-/* Additional mobile adjustments */
-@media (max-width: 768px) {
-  .footer-bottom {
-    padding: 1rem;
-    font-size: 0.85rem;
-  }
-}

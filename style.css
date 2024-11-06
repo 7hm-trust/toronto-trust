@@ -65,6 +65,7 @@
 }
 
 .blog-title {
+  text-align: left;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: #333;
@@ -79,7 +80,7 @@
 /* Read More Link */
 .read-more {
   font-size: 0.9rem;
-  color: #0066cc;
+  color: #f0f0f0;
   text-decoration: none;
   font-weight: bold;
 }

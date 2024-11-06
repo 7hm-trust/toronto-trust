@@ -323,8 +323,11 @@ footer {
   background-color: #333333; /* Darker gray */
   color: #ffffff;
   padding: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem; /* Slightly larger font size */
+  font-family: Arial, sans-serif; /* Set font to Arial */
+  font-weight: normal; /* Ensure the text is not bold */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+

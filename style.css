@@ -265,3 +265,21 @@ footer {
   color: #ffffff; /* Text color */
   padding: 1rem;
 }
+/* Footer styling */
+.footer-bottom {
+  background-color: #a9a9a9; /* Medium gray */
+  color: #333333;
+  padding: 1rem;
+  position: relative;
+}
+
+.footer-bottom:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Extends the footer background by 100% of the viewport height */
+  background-color: #a9a9a9; /* Matches the footer color */
+}
+

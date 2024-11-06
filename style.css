@@ -54,6 +54,7 @@ body {
 /* Section styling */
 .section {
   padding: 3rem 1rem;
+  text-align: center;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -67,6 +68,10 @@ body {
 /* About section styling */
 #about {
   background-color: #ffffff;
+}
+
+/* General About Section Styling */
+#about {
   text-align: left; /* Ensures the content above is left-aligned */
   max-width: 800px;
   margin: 0 auto; /* Centers the whole section but keeps text left-aligned */
@@ -87,7 +92,6 @@ body {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-  text-align: left; /* Left-align text in team member boxes */
 }
 
 .team-member h3 {
@@ -99,7 +103,6 @@ body {
 .team-member p {
   margin: 5px 0;
   font-weight: normal;
-  color: #ffffff; /* Set team text to white */
 }
 
 .team-member p strong {
@@ -122,6 +125,7 @@ body {
   background-position: center;
   background-blend-mode: multiply; /* Ensures the gradient blends with the image */
 }
+
 
 .banner-overlay {
   position: absolute;
@@ -165,7 +169,6 @@ form label {
   margin-top: 1rem;
   text-align: left;
   width: 100%;
-  color: #ffffff; /* Make form labels white */
 }
 
 form input, form textarea {
@@ -222,41 +225,39 @@ form button:hover {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* Body styling with dark background */
-body {
-  font-family: "Times New Roman", Times, serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #333333; /* Match the footer background color */
-  margin-top: 80px; /* Adds space for fixed navbar */
-}
-
-/* Main section styling */
-.section {
-  padding: 3rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffffff; /* White background for readable content */
-  border-radius: 8px; /* Adds a subtle rounding effect */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to lift section */
-}
-
 /* Footer styling */
 footer {
   width: 100%;
   text-align: center;
-  background-color: #333333; /* Dark gray for a seamless look */
-  color: #ffffff;
 }
 
 /* Top part of the footer with social icons */
 .footer-top {
-  background-color: #444444; /* Slightly lighter dark gray */
+  background-color: #f0f0f0; /* Light gray background */
   padding: 1.5rem;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons a img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+  filter: grayscale(100%); /* Optional: make icons grayscale */
+  transition: filter 0.3s;
+}
+
+.social-icons a img:hover {
+  filter: grayscale(0%); /* Icons return to color on hover */
+}
+
+/* Bottom part of the footer with email address */
 .footer-bottom {
-  background-color: #333333;
+  background-color: #333333; /* Dark gray background */
+  color: #ffffff;
   padding: 1rem;
 }
 
@@ -264,5 +265,4 @@ footer {
   margin: 0;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #ffffff;
 }

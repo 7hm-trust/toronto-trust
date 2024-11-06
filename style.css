@@ -80,6 +80,7 @@
 /* Read More Link */
 .read-more {
   font-size: 0.9rem;
+  text-align: left;
   color: #333333;
   text-decoration: none;
   font-weight: bold;

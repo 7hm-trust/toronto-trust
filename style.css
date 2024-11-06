@@ -54,7 +54,6 @@ body {
 /* Section styling */
 .section {
   padding: 3rem 1rem;
-  text-align: center;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -68,10 +67,6 @@ body {
 /* About section styling */
 #about {
   background-color: #ffffff;
-}
-
-/* General About Section Styling */
-#about {
   text-align: left; /* Ensures the content above is left-aligned */
   max-width: 800px;
   margin: 0 auto; /* Centers the whole section but keeps text left-aligned */
@@ -92,6 +87,7 @@ body {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  text-align: left; /* Left-align text in team member boxes */
 }
 
 .team-member h3 {
@@ -126,7 +122,6 @@ body {
   background-blend-mode: multiply; /* Ensures the gradient blends with the image */
 }
 
-
 .banner-overlay {
   position: absolute;
   top: 0;
@@ -144,7 +139,6 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
-
 
 /* Contact form section */
 #contact {

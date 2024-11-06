@@ -222,39 +222,41 @@ form button:hover {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Body styling with dark background */
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #333333; /* Match the footer background color */
+  margin-top: 80px; /* Adds space for fixed navbar */
+}
+
+/* Main section styling */
+.section {
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff; /* White background for readable content */
+  border-radius: 8px; /* Adds a subtle rounding effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to lift section */
+}
+
 /* Footer styling */
 footer {
   width: 100%;
   text-align: center;
+  background-color: #333333; /* Dark gray for a seamless look */
+  color: #ffffff;
 }
 
 /* Top part of the footer with social icons */
 .footer-top {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #444444; /* Slightly lighter dark gray */
   padding: 1.5rem;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.social-icons a img {
-  width: 24px; /* Adjust icon size */
-  height: 24px;
-  filter: grayscale(100%); /* Optional: make icons grayscale */
-  transition: filter 0.3s;
-}
-
-.social-icons a img:hover {
-  filter: grayscale(0%); /* Icons return to color on hover */
-}
-
-/* Bottom part of the footer with email address */
 .footer-bottom {
-  background-color: #333333; /* Dark gray background */
-  color: #ffffff;
+  background-color: #333333;
   padding: 1rem;
 }
 

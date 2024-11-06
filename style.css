@@ -72,6 +72,7 @@
 }
 
 .blog-snippet {
+  text-align: left;
   font-size: 1rem;
   color: #666;
   margin-bottom: 0.5rem;

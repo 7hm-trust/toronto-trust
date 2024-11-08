@@ -321,10 +321,10 @@ footer {
 /* Bottom part of the footer with email text */
 .footer-bottom {
   background-color: #333333; /* Darker gray */
-  color: #fff;
+  color: #d2d2d2;
   padding: 1.5rem;
   font-size: 0.9rem; /* Slightly larger font size */
-  font-family: sans-serif; /* Set font to Arial */
+  font-family: Times New Roman; /* Set font to Arial */
   font-weight: normal; /* Ensure the text is not bold */
   display: flex;
   flex-direction: column;

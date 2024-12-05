@@ -5,9 +5,17 @@
   box-sizing: border-box;
 }
 
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* Body styling */
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: #333;
   background-color: #ffffff;
@@ -33,7 +41,7 @@ body {
 }
 
 .navbar .logo {
-  height: 70px;
+  height: 80px;
 }
 
 .navbar nav ul {
@@ -43,14 +51,16 @@ body {
 }
 
 .navbar nav ul li a {
-  color: #333;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 16px;
 }
 
 .navbar nav ul li a:hover {
   color: #8a8a8a;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 /* Section styling */
@@ -75,6 +85,7 @@ body {
   margin: 0 auto;
 }
 
+
 /* Team Container Styling */
 .team-container {
   display: flex;
@@ -88,11 +99,17 @@ body {
   background-color: #f9f9f9;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.team-member:hover{
+  transition: 0.4s;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .team-member h3 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
@@ -197,12 +214,14 @@ body {
 }
 
 .blog-preview:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+  cursor: pointer;
 }
 
 /* Company Logo */
 .blog-logo {
-  width: 80px;
+  width: 160px;
   height: 80px;
   margin-right: 1.5rem;
   border-radius: 8px;
@@ -264,19 +283,20 @@ form label {
   margin-top: 1rem;
   text-align: left;
   width: 100%;
+  
 }
 
 form input, form textarea {
   width: 100%;
   padding: 0.8rem;
   margin: 0.8rem 0;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 4px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 form button {
-  background-color: #b4b4b4;
+  background-color: #000000;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -287,6 +307,7 @@ form button {
 
 form button:hover {
   background-color: #8a8a8a;
+  transition: 0.4s;
 }
 
 /* Footer styling */
@@ -316,18 +337,24 @@ footer {
 
 .social-icons a img:hover {
   filter: grayscale(0%);
+  transition: 0.2s;
 }
 
 /* Bottom part of the footer with email text */
 .footer-bottom {
   background-color: #333333; /* Darker gray */
-  color: #d2d2d2;
+  color: #ffffff;
   padding: 1.5rem;
   font-size: 0.9rem; /* Slightly larger font size */
-  font-family: Times New Roman; /* Set font to Arial */
-  font-weight: normal; /* Ensure the text is not bold */
+  font-family: Arial, Helvetica, sans-serif; /* Set font to Arial */
+  font-weight: bolder; /* Ensure the text is not bold */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+
+
+
+
 
